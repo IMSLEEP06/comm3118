@@ -61,7 +61,6 @@ running = True
 while running:
     
     for event in pygame.event.get():
-        #print(event)
         if event.type == pygame.QUIT:
             running = False
         if event.type == pygame.KEYDOWN:
